@@ -1,0 +1,12 @@
+
+.MovieDetail {
+  background-color: #000;
+  width: 100%;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: gold;
+}
