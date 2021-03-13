@@ -1,0 +1,20 @@
+
+.MovieList-ul {
+  padding-left: 0px;
+}
+
+.MovieList-li {
+  list-style: none;
+  padding-top: 8px;
+  padding-left: 0px;
+  text-decoration: none;
+
+  border-bottom: 1px solid #444;
+}
+
+.MovieList-li:hover {
+  background-color: #333
+}
+.MovieList-li:active {
+  background-color: black;
+}

@@ -30,7 +30,7 @@ class MovieModel {
    * @returns {object} movie object
    */
   getDetail(movieId) {
-    const found = this.films.filter(f => f.episode == movieId)
+    const found = this.films.filter(f => f.episode === movieId)
     if (found.length) {
       return Promise.resolve(found[0])
     }
